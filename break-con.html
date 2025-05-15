@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script>
+        //break
+        let n = 0;
+        while (n < 3){
+            if (n == 2){
+            break; //强迫结束回圈
+        }
+        console.log(n);
+        n++;
+        }
+    //continue
+        for (let n = 0; n < 5; n++) {
+            if (n % 2 == 0) { //如果n除以2的余数为0
+                continue; //强迫回到回圈上方，忽略下面指令，进入下一圈
+            }
+            console.log(n)
+        }
+    </script>
+
+</body>
+</html>
